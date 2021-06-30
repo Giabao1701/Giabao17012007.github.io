@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Em dangiu honggg daa??',
+        title: 'Thấy em như nàooo ??????',
         html: true,
         width: 900,
         padding: '3em',
