@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'He luu chị!',
-        text: 'TEm có điều này muốn hỏi chị nhớ phải trả lời thật lòng biết chưaaa.',
+        text: 'Em có điều này muốn hỏi chị nhớ phải trả lời thật lòng biết chưaaa.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
