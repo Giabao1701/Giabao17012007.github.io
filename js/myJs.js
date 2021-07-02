@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'He luu chị!',
-        text: 'Em có điều này muốn hỏi chị nhớ phải trả lời thật lòng biết chưaaa.',
+        text: 'anh có điều này muốn hỏi em nhớ phải trả lời thật lòng biết chưaaa.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Em dangiu vl ấyyy  ";
+    var text = " Vì em còn tình cảm với anh :(   ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Thấy em như nàooo ??????',
+        title: 'sao lại chọn quay lại vậy ??????',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,19 +109,19 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Chưa hoàn chỉnh nữa nên ấn nút kia đii",
+        cancelButtonText: " ",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho em đi'
+        confirmButtonText: 'Gửi cho anh đi'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Em biết rồi mà, chị cũng dangiu lắm đóoo',
+                title: 'Anh biết rồi, anh cũng yêu em vl <3',
                 text: "Còn giờ thì chờ gì nữa mà hong inbox cho em đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
